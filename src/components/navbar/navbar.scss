@@ -1,6 +1,8 @@
+@import '../../variables';
+
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
+    background: $dark-green;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    max-width: 1500px;
+    height: 10vh;
+    max-width: 100%;
   }
   
   .navbar-logo {
@@ -50,7 +52,7 @@
     height: 80px;
   
     .nav-link {
-        color: #fff;
+        color: $light-yellow;
         display: flex;
         align-items: center;
         text-decoration: none;
@@ -59,8 +61,7 @@
       }
     
       .nav-link:hover {
-        border-bottom: 4px solid #54BE90;
-        color: #54BE90;
+        border-bottom: 4px solid $light-yellow;
         font-size: 120%;
         transition: all 0.2s ease-in-out;
       }
@@ -72,7 +73,7 @@
   
   
   .fa-bars {
-    color: #fff;
+    color: $light-yellow;
   }
   
   .nav-link {
@@ -101,7 +102,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: $dark-green;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;

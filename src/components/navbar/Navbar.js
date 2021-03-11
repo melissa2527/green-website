@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './navbar.scss';
 import {Link} from 'react-router-dom';
-import {Button} from '../Button';
 
 export const NavBar = () => {
     const [clicked, setClicked] = useState(false);
@@ -41,21 +40,21 @@ export const NavBar = () => {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/about' className='nav-link' onClick={closeMenuMobile}>
-                                About
+                            <Link to='/vertical-swamp' className='nav-link' onClick={closeMenuMobile}>
+                                What We Do
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/projects' className='nav-link' onClick={closeMenuMobile}>
-                                Projects
+                            <Link to='/team' className='nav-link' onClick={closeMenuMobile}>
+                                Our Team
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>
+                    {button ? <button>
                         <Link to='/contact' className='contact-btn'>
                             Contact
                         </Link>
-                    </Button>}
+                    </button> : null}
                 </div>
             </nav>
         </>
