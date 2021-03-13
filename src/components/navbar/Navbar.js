@@ -28,7 +28,7 @@ export const NavBar = () => {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
-                        <img src='img/logo.png' alt='' height={50}/>
+                        <img src='img/muuras.png' alt='' height={50}/>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -40,7 +40,7 @@ export const NavBar = () => {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/vertical-swamp' className='nav-link' onClick={closeMenuMobile}>
+                            <Link to='/what-we-do' className='nav-link' onClick={closeMenuMobile}>
                                 What We Do
                             </Link>
                         </li>

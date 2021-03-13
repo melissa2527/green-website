@@ -1,0 +1,40 @@
+@import '../../../variables';
+
+.swamp-container {
+    min-height: 60vh;
+    padding: 2rem;
+    // background-color: $light-yellow;
+
+    h2 {
+        padding-top: 1.5rem;
+        text-align: center;
+        font-size: 2.5rem;
+        color: $dark-green;
+        text-decoration: underline 2px solid $med-green;
+    }
+
+    .swamp-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 2px solid red;
+
+        .swamp-text {
+            width: 50%;
+            border: 2px solid blue;
+        }
+        
+        .swamp-img {
+            width: 49%;
+            border: 2px solid green;
+        
+            img {
+                max-width: 400px;
+                box-shadow: 7px 7px 7px $med-green;
+            }
+        }
+    }
+
+    
+}
+
+
