@@ -3,5 +3,36 @@
         "1": "Huis",
         "2": "Over Ons",
         "3": "Wat We Doen"
+    },
+    "Challenge": {
+        "title": "Winnaar van de circulaire uitdaging: hoogbouw",
+        "date": "April-Juni 2020",
+        "description": "In juni 2020 hebben we de Circular Challenge: High-rise bij BlueCity010 gewonnen. Samen met het waterschap van Schieland & Krimpenerwaard hebben we een in-house oplossing ontwikkeld om afvalwater in hoogbouw te besparen.",
+        "image" : "./img/circular-change.png"
+    },
+    "Swamp": {
+        "title": "We zetten moerassen op muren",
+        "text": "Muuras ontwikkelt groene verticale wetlandfilters die een scala aan milieuvoordelen kunnen opleveren.",
+        "button": "Kom meer te weten"
+    },
+    "Team": [
+        {
+        "name": "Gijs",
+        "img": "img/gijs.jpg",
+        "alt": "Gijs",
+        "info": "Gijs heeft een academische achtergrond in Economie & Bedrijfskunde en Life Sciences van het Erasmus University College. Gevestigd in Amsterdam, beheert hij momenteel een Bed & Breakfast in Amsterdam naast toonaangevende Muuras."
+    },
+    {
+        "name": "Lydia",
+        "img": "img/lydia.jpg",
+        "alt": "Lydia",
+        "info": "Lydia is gevestigd in Thessaloniki en werkt naast de technische expert van Muuras als technisch water- en milieuspecialist. Lydia heeft een MSc in Milieutechnologie van de Universiteit Twente en een BSc in Industriële Technologie van Piraeus University."
+    },
+    {
+        "name": "Pjotr",
+        "img": "img/pjotr.jpg",
+        "alt": "Pjotr",
+        "info": "Naast zijn studie Milieueconomie aan Wageningen University & Research, houdt Pjotr ​​zich bezig met de communicatie en PR van Muuras."
     }
+    ]
 }

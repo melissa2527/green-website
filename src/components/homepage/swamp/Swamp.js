@@ -1,14 +1,21 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './swamp.scss';
+// import Aos from 'aos';
+// import 'aos/dist/aos.css';
 
 export const Swamp = () => {
+
+    // useEffect(() => {
+    //     Aos.init({duration: 1500})
+    // }, []) 
+
     return (
         <div className='swamp-container'>
-            <h2>We Put Swamps on Walls</h2>
+            <h2>Swamp Title</h2>
             
             <div className='swamp-info'>
                 <div className='swamp-text'>
-                    <p>Muuras develops green vertical wetland filters that can provide a range of environmental benefits.</p>
+                    <p>Swamp Text</p>
                     <div className='btn-container'>
                         <button>Learn More</button>
                     </div>
@@ -20,3 +27,4 @@ export const Swamp = () => {
         </div>
     )
 }
+
