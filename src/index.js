@@ -1,18 +1,21 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ScrollToTop from 'react-router-scroll-top';
 import {BrowserRouter as Router} from 'react-router-dom';
+import './i18next';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Suspense fallback={(<div>Loading...</div>)}>
     <Router>
       <ScrollToTop>
         <App />
       </ScrollToTop>
     </Router>
+    </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

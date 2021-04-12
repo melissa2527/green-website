@@ -5,6 +5,7 @@ export const Swamp = () => {
     return (
         <div className='swamp-container'>
             <h2>We Put Swamps on Walls</h2>
+            
             <div className='swamp-info'>
                 <div className='swamp-text'>
                     <p>Muuras develops green vertical wetland filters that can provide a range of environmental benefits.</p>

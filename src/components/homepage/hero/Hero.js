@@ -2,6 +2,8 @@ import React, {useEffect} from 'react'
 import './hero.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import {Link} from 'react-router-dom';
+import {Swamp} from '../swamp/Swamp';
 
 export const Hero = () => {
     useEffect(() => {
@@ -16,7 +18,9 @@ export const Hero = () => {
                     <h3>A natural solution for urban wastewater</h3>
                 </div>
             </div>
-            {/* <button>Find Out More...</button> */}
+            <Link to={Swamp}>
+                <button id='hero-btn'>Find Out More...</button>
+            </Link>
         </div>
     )
 }

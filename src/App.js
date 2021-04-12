@@ -7,7 +7,9 @@ import { WhatWeDo } from './components/whatwedo/WhatWeDo';
 function App() {
   return (
     <div className="App" >
-      <NavBar />
+      <NavBar>
+        
+      </NavBar>
       <Switch>
         <Route exact path='/' component={Homepage}/>
         <Route path='/team' component={Team}/>
