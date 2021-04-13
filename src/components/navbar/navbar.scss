@@ -66,7 +66,8 @@
       }
     
       .nav-link:hover {
-        border-bottom: 4px solid #fff;
+        border-bottom: 4px solid $med-green;
+        color: $med-green;
         font-size: 120%;
         transition: all 0.2s ease-in-out;
       }
@@ -150,6 +151,11 @@
       color: #fff;
       font-size: 2rem;
     }
+
+    #bars-hover:hover {
+      transform: scale(1.1);
+      color: $med-green;
+    }
   
     .nav-link {
       display: block;
@@ -176,7 +182,8 @@
       margin-bottom: 1.5rem;
     }
   }
-  
+
+
   .contact-btn {
     color:#232323;
     text-decoration: none;
@@ -185,4 +192,14 @@
   .contact-btn:hover, .contact-btn:focus {
     color: $dark-green;
     font-weight: bolder;
+  }
+
+  .flag {
+    border-radius: 5px;
+    height: 25px;
+    margin-right: 0.25rem;
+  }
+
+  .flag:hover {
+    transform: scale(1.1);
   }

@@ -9,6 +9,12 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+
+    .icon-container {
+        display: flex;
+        width: 300px;
+        justify-content: space-around;
+    }
 }
 
 .title {

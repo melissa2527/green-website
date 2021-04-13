@@ -18,33 +18,19 @@
     flex-wrap: wrap;
 
     .swamp-text {
-        width: 50%;
+        width: 500px;
     }
     
     .swamp-img {
-        width: 49%;
-         .swamp-info {
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        .swamp-text {
-            width: 50%;
-        }
-        
-        .swamp-img {
-            width: 49%;
+        min-width: 350px;
+        // display: flex;
+        // justify-content: center;
         
             img {
                 max-width: 400px;
                 box-shadow: 5px 5px 7px $dark-green;
-            }
-        }
-    }
-    
-        img {
-            max-width: 400px;
-            box-shadow: 5px 5px 7px $dark-green;
-        }
+                // margin: 0 auto;
+            }  
     }
 }
 
