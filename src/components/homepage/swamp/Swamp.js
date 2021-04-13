@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import './swamp.scss';
+import {Button} from '../../Button';
 // import Aos from 'aos';
 // import 'aos/dist/aos.css';
 
@@ -17,7 +18,12 @@ export const Swamp = () => {
                 <div className='swamp-text'>
                     <p>Swamp Text</p>
                     <div className='btn-container'>
-                        <button>Learn More</button>
+                        <Button
+                            className='btn'
+                            buttonStyle='btn--outline'
+                            buttonSize='btn--lge'>
+                            Learn More
+                        </Button>
                     </div>
                 </div>
                 <div className='swamp-img'>

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './navbar.scss';
 import {Link} from 'react-router-dom';
+import {Button} from '../Button';
 // import i18n from '../../i18next';
 
 export const NavBar = () => {
@@ -28,9 +29,11 @@ export const NavBar = () => {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
-                        <img src='img/muuras.png' alt='' height={50}/>
-                    </Link>
+                    <div className='logo-container'>
+                        <Link to='/' className='navbar-logo' onClick={closeMenuMobile}>
+                            <img src='img/muuras.png' alt='' height={50}/>
+                        </Link>
+                    </div>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}/>
                     </div>
@@ -54,12 +57,12 @@ export const NavBar = () => {
                             </Link>
                         </li>
                     </ul>
-                    {button ? <button>
+                    {button && <Button buttonStyle='btn--primary'>
                         <Link to='/contact' className='contact-btn'>
                         {/* {t('Contact')} */}
                         Contact
                         </Link>
-                    </button> : null}
+                    </Button>}
                 </div>
             </nav>
         </>
