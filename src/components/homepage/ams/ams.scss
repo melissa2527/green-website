@@ -1,17 +1,29 @@
 .ams-container {
     // width: 100vw;
     padding: 2rem;
-    // margin: 0 auto;
 
     .ams-img-container {
-        // display: flex;
-        // justify-content: center;
         width: 80vw;
         margin: 0 auto;
-        // border: 3px solid red;
+        overflow-x: hidden;
 
         img {
             width: 80vw;
         }
+    }
+}
+
+.ams_large {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+
+    .ams_large_text {
+        z-index: 1;
+        position: absolute;
+        margin-top: -15rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
     }
 }
